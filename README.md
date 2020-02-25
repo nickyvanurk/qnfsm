@@ -1,6 +1,6 @@
 # Event-driven Finite State Machine
 
-Event-driven finite state machine game architecture (QnFSM) implementation in JavaScript. For more information read chapter 6 in [this book](http://ithare.com/contents-of-development-and-deployment-of-massively-multiplayer-games-from-social-games-to-mmofps-with-stock-exchanges-in-between/).
+Event-driven finite state machine (QnFSM) game architecture implementation in JavaScript. For more information read chapter 6 in [this book](http://ithare.com/contents-of-development-and-deployment-of-massively-multiplayer-games-from-social-games-to-mmofps-with-stock-exchanges-in-between/).
 
 <img src="diagram.png">
 
