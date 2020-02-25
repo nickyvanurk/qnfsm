@@ -1,0 +1,26 @@
+{
+  "name": "qnfsm",
+  "version": "1.0.0",
+  "description": "Event driven finite state machine",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx node dist/app.js",
+    "dev": "npx nodemon src/app.js --ext js --exec babel-node",
+    "build": "npx babel src --out-dir dist --copy-files"
+  },
+  "author": "N. van Urk",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "core-js": "^3.6.4",
+    "express": "^4.16.2",
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  }
+}
