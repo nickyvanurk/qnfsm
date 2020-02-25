@@ -17,16 +17,13 @@ class PlayState {
   spawnPlayer() {
     console.log('PlayState: spawning player');
 
-    eventProcessor.addRenderEvent(
-      Event.Render.Render.CreateSpaceship,
-      {
-        coordinates: {
-          x: Math.floor(Math.random() * Math.floor(50)),
-          y: Math.floor(Math.random() * Math.floor(50)),
-          z: Math.floor(Math.random() * Math.floor(50))
-        }
+    eventProcessor.addRenderEvent(Event.Render.Render.CreateSpaceship, {
+      coordinates: {
+        x: Math.floor(Math.random() * Math.floor(50)),
+        y: Math.floor(Math.random() * Math.floor(50)),
+        z: Math.floor(Math.random() * Math.floor(50))
       }
-    );
+    });
   }
 };
 
