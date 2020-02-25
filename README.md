@@ -39,25 +39,23 @@ npm run dev
 ## Output
 
 ```
-Game loader: updating
-Game loader: rendering
+LoadState: updating
+LoadState: rendering
 Event added
 Event added
-Processing event: {"event":0}
-Game loader: loading graphics
-Renderer: updating
-Renderer: rendering
-Processing event: {"event":0}
-Game player: spawning player
+Processing event
+LoadState: loading graphics
+RenderState: updating
+RenderState: rendering
+Processing event
+PlayState: spawning player
 Event added
-Processing event: {"event":0,"payload":{"coordinates":{"x":17,"y":19,"z":40}}}
-Renderer: creating spawnship at x: 17, y: 19, z: 19
-Renderer: updating
-Renderer: rendering
-Renderer: updating
-Renderer: rendering
-Renderer: updating
-Renderer: rendering
+Processing event
+RenderState: creating spaceship at x: 29, y: 28, z: 28
+RenderState: updating
+RenderState: rendering
+RenderState: updating
+RenderState: rendering
 ...
 ```
 

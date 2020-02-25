@@ -14,7 +14,7 @@ class EventProcessor {
   update() {
     while (this.eventQueue.length !== 0) {
       let { destination, event } = this.eventQueue.shift();
-      console.log(`Processing event: ${JSON.stringify(event)}`);
+      console.log('Processing event');
       this.processEvent(destination, event)
     }
 

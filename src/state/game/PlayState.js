@@ -15,7 +15,7 @@ class PlayState {
   }
 
   spawnPlayer() {
-    console.log('Game player: spawning player');
+    console.log('PlayState: spawning player');
 
     eventProcessor.addRenderEvent(
       Event.Render.Render.CreateSpaceship,

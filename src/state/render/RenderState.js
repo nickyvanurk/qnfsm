@@ -12,15 +12,15 @@ class RenderState {
   }
 
   update(render) {
-    console.log('Renderer: updating');
+    console.log('RenderState: updating');
   }
 
   render(render) {
-    console.log('Renderer: rendering');
+    console.log('RenderState: rendering');
   }
 
   createSpaceship(coordinates) {
-    console.log('Renderer: creating spawnship at ' +
+    console.log('RenderState: creating spaceship at ' +
       `x: ${coordinates.x}, y: ${coordinates.y}, z: ${coordinates.y}`);
   }
 };

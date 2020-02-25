@@ -4,7 +4,7 @@ class LoadState {
   processEvent(render, event) {
     switch(event.event) {
       case Event.Render.Load.LoadGraphics:
-        console.log('Game loader: loading graphics');
+        console.log('LoadState: loading graphics');
 
         render.toRenderState();
         break;
@@ -12,11 +12,11 @@ class LoadState {
   }
 
   update(render) {
-    console.log('Game loader: updating');
+    console.log('LoadState: updating');
   }
 
   render(render) {
-    console.log('Game loader: rendering');
+    console.log('LoadState: rendering');
   }
 };
 
