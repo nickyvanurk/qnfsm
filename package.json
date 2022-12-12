@@ -13,7 +13,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
     "core-js": "^3.6.4",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "ws": "^3.2.0"
   },
   "devDependencies": {
